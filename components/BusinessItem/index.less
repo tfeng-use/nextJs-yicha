@@ -1,0 +1,62 @@
+@import '../../style/common.less';
+@import '../../style/util.less';
+
+.com-wrapper {
+  text-align: left;
+  padding-bottom: 10px;
+  overflow: hidden;
+  border-bottom: solid 1px #f0f0f0;
+  h3 {
+    margin: 15px 0 10px 0;
+    a {
+      font-size: 18px;
+      color: #303030;
+      line-height: 1.5;
+      &:hover {
+        color: @hoverColor;
+      }
+    }
+  }
+  .company {
+    margin: 10px 0;
+    height: 40px;
+    line-height: 40px;
+    img {
+      margin-right: 10px;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+    }
+    span {
+      margin-right: 20px;
+      font-size: 14px;
+      color: #BBBBBB;
+    }
+  }
+  .content {
+    font-size: 14px;
+    line-height: 1.5em;
+    margin-bottom: 5px;
+    color: #999999;
+    .limitTwoLines();
+  }
+  .imgs {
+    .img-wrapper {
+      margin-top: 10px;
+      margin-right: 20px;
+      position: relative;
+      display: inline-block;
+      width: 180px;
+      height: 160px;
+      overflow: hidden;
+      img {
+        position: absolute;
+        cursor: pointer;
+        height: 160px;
+        width: 180px;
+      }
+    }
+
+  }
+  
+}

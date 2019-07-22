@@ -1,0 +1,15 @@
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.float_l {
+  float: left;
+}
+.float_r {
+  float: right;
+}
+.w {
+  width: 1200px;
+  margin: 0 auto;
+}

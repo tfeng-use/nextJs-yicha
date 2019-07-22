@@ -1,0 +1,109 @@
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.float_l {
+  float: left;
+}
+.float_r {
+  float: right;
+}
+.w {
+  width: 1200px;
+  margin: 0 auto;
+}
+.showPoint {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.limitTwoLines {
+  white-space: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  /*3表示只显示3行*/
+  /* autoprefixer: ignore next */
+  -webkit-box-orient: vertical;
+  /* autoprefixer: on */
+}
+.leftPart {
+  float: left;
+  width: 818px;
+}
+.rightPart {
+  float: right;
+  width: 348px;
+}
+.pageLoading {
+  margin: 200px 0 100px 0;
+}
+.toCenter {
+  left: 50%;
+  transform: translateX(-50%);
+}
+.com-wrapper {
+  text-align: left;
+  padding-bottom: 10px;
+  overflow: hidden;
+  border-bottom: solid 1px #f0f0f0;
+}
+.com-wrapper h3 {
+  margin: 15px 0 10px 0;
+}
+.com-wrapper h3 a {
+  font-size: 18px;
+  color: #303030;
+  line-height: 1.5;
+}
+.com-wrapper h3 a:hover {
+  color: #6ebdff;
+}
+.com-wrapper .company {
+  margin: 10px 0;
+  height: 40px;
+  line-height: 40px;
+}
+.com-wrapper .company img {
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.com-wrapper .company span {
+  margin-right: 20px;
+  font-size: 14px;
+  color: #BBBBBB;
+}
+.com-wrapper .content {
+  font-size: 14px;
+  line-height: 1.5em;
+  margin-bottom: 5px;
+  color: #999999;
+  white-space: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  /*3表示只显示3行*/
+  /* autoprefixer: ignore next */
+  -webkit-box-orient: vertical;
+  /* autoprefixer: on */
+}
+.com-wrapper .imgs .img-wrapper {
+  margin-top: 10px;
+  margin-right: 20px;
+  position: relative;
+  display: inline-block;
+  width: 180px;
+  height: 160px;
+  overflow: hidden;
+}
+.com-wrapper .imgs .img-wrapper img {
+  position: absolute;
+  cursor: pointer;
+  height: 160px;
+  width: 180px;
+}

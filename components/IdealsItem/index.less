@@ -1,0 +1,49 @@
+@import '../../style/common.less';
+@import '../../style/util.less';
+
+.setImg {
+  width: 280px;
+  height: 200px;
+}
+
+.com-wrapper {
+  margin-bottom: 20px;
+  display: inline-block;
+  text-align: left;
+  width: 280px;
+  // height: 270px;
+  background: #f1f4fb;
+  // box-shadow: 0 0 3px 1px rgba(100, 100, 100, .1);
+  .img-wrapper {
+    display: inline-block;
+    .setImg();
+  }
+  img {
+    .setImg();
+    // object-fit: contain
+  }
+  h3 {
+    margin: 10px 0 5px 15px;
+    font-size: 16px;
+    line-height: 1.5em;
+    .showPoint();
+    a {
+      color: #212121;
+      &:hover {
+        color: @hoverColor;
+      }
+    }
+  }
+  .content {
+    margin-left: 15px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #969696;
+    span {
+      margin-right: 20px;
+    }
+  }
+  .icon {
+    margin-right: 3px;
+  }
+}

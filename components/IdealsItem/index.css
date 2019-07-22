@@ -1,0 +1,92 @@
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.float_l {
+  float: left;
+}
+.float_r {
+  float: right;
+}
+.w {
+  width: 1200px;
+  margin: 0 auto;
+}
+.showPoint {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.limitTwoLines {
+  white-space: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  /*3表示只显示3行*/
+  /* autoprefixer: ignore next */
+  -webkit-box-orient: vertical;
+  /* autoprefixer: on */
+}
+.leftPart {
+  float: left;
+  width: 818px;
+}
+.rightPart {
+  float: right;
+  width: 348px;
+}
+.pageLoading {
+  margin: 200px 0 100px 0;
+}
+.toCenter {
+  left: 50%;
+  transform: translateX(-50%);
+}
+.setImg {
+  width: 280px;
+  height: 200px;
+}
+.com-wrapper {
+  margin-bottom: 20px;
+  display: inline-block;
+  text-align: left;
+  width: 280px;
+  background: #f1f4fb;
+}
+.com-wrapper .img-wrapper {
+  display: inline-block;
+  width: 280px;
+  height: 200px;
+}
+.com-wrapper img {
+  width: 280px;
+  height: 200px;
+}
+.com-wrapper h3 {
+  margin: 10px 0 5px 15px;
+  font-size: 16px;
+  line-height: 1.5em;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.com-wrapper h3 a {
+  color: #212121;
+}
+.com-wrapper h3 a:hover {
+  color: #6ebdff;
+}
+.com-wrapper .content {
+  margin-left: 15px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #969696;
+}
+.com-wrapper .content span {
+  margin-right: 20px;
+}
+.com-wrapper .icon {
+  margin-right: 3px;
+}

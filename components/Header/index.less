@@ -1,0 +1,38 @@
+@import '../../style/common.less';
+
+.uiHeader {
+  overflow: hidden;
+  height: 72px;
+  line-height: 72px;
+  border-bottom: solid 1px #f0f0f0;
+  .logo-wrapper {
+    display: block;
+    width: 180px;
+    height: 71px;
+    font-size: 0;
+    cursor: pointer;
+    img {
+      width: 180px;
+      height: 71px;
+    }
+  }
+  .list-wrapper {
+    li {
+      display: inline-block;
+      vertical-align: middle;
+      font-size: 16px;
+      color: #303030;
+      height: 72px;
+      a {
+        padding: 0 30px;
+        cursor: pointer;
+        display: inline-block;
+        line-height: 72px;
+        color: #303030;
+        &:hover {
+          color: @hoverColor;
+        }
+      }
+    }
+  }
+}
